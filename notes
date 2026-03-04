@@ -1,0 +1,6 @@
+NOTES 
+
+.always initialize the repo
+    .i get the repo after running (git init) inside the folder 
+        e.g i got the repo after running (git init) inside the examples folder 
+
