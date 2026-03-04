@@ -1,0 +1,32 @@
+This is the notes for the 1.js
+
+.constructors 
+    .method that runs automatically when I create a new object from a class 
+    .its how I set up the object's initial state - its properties, defaults, and any logic needed at creation time 
+    >it receives the initial values I pass in 
+    .assigns the values to the (this) object
+    .runs any set up logic (validation, defaults, computed values)
+    .guarantees every object starts in a valid state 
+    .its always named constructor 
+
+>> 
+    .{} - new creates the empty object 
+    .(this) points to that new object === attaching properties to the new object 
+    .constructor always returns the object automatically; never use return in a constructor 
+
+Importance:
+.enforce the required data 
+.prevent invalid objects 
+.set defaults 
+.prepare internal state 
+.make objects predictable and safe to use  
+
+class Car {
+    constructor(make, model, year)
+    {
+        this.make = make;
+        this.model = model;
+        this.year = year;
+    }
+    
+}
